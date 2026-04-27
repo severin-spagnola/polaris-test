@@ -25,7 +25,6 @@ def list_users(session: Session = Depends(db_session)) -> list[UserSummary]:
                 company=user.company,
                 status=user.status,
                 timezone=user.timezone,
-                account_tier=user.account_tier,
                 last_active_at=user.last_active_at,
                 open_orders=open_orders or 0,
             )
@@ -50,7 +49,6 @@ def get_user(user_id: int, session: Session = Depends(db_session)) -> UserDetail
         phone=user.phone,
         timezone=user.timezone,
         status=user.status,
-        account_tier=user.account_tier,
         renewal_date=user.renewal_date,
         notes=user.notes,
         last_active_at=user.last_active_at,
