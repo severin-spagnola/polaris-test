@@ -43,9 +43,11 @@ export function UserProfilePage() {
               <span className="label">Company</span>
               <strong>{user.company}</strong>
             </div>
-            <div>
+            <div className="account-tier-highlight">
               <span className="label">Account tier</span>
-              <strong>{user.account_tier}</strong>
+              <strong className={`tier-badge tier-${user.account_tier?.toLowerCase()}`}>
+                {user.account_tier}
+              </strong>
             </div>
             <div>
               <span className="label">Renewal date</span>
