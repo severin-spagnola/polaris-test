@@ -1,7 +1,4 @@
-"""Initial schema for NimbusOps demo data.
-
-This file is illustrative so the repo looks like a realistic application setup.
-"""
+"""Initial schema for NimbusOps."""
 
 revision = "20260422_001"
 down_revision = None

@@ -1,6 +1,6 @@
 # NimbusOps API
 
-FastAPI backend for the NimbusOps demo SaaS application.
+FastAPI backend for the NimbusOps SaaS application.
 
 ## Start
 

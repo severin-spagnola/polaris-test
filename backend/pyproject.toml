@@ -1,7 +1,7 @@
 [project]
 name = "nimbusops-api"
 version = "0.1.0"
-description = "Mock B2B dashboard API for demo branch conflicts"
+description = "NimbusOps B2B operations dashboard API"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
